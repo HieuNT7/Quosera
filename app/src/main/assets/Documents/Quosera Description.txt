@@ -1,0 +1,6 @@
+﻿Introduction:
+Xuất pháp từ những câu hỏi thắc mắc không biết hỏi ai,
+Quosera ra đời như một nơi để mọi người trao đổi và thảo luận về các vấn đề về công nghệ.
+Bao gồm nhiều lĩnh vực khoa học cơ bản, công nghệ phần mềm, khoa học máy tính.
+Giao diện app Quosera được chia làm 3 phần trực quan: Recently, Trending, Following thiết kế theo phong cách material design.
+Hãy cùng trải nghiệm và thưởng thức !!!

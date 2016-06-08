@@ -1,0 +1,73 @@
+﻿21/01/2016
+Login page: 
+. Tên - email + ava + background 
+. Thông tin cá nhân (1. edit account 2. edit account trong page tt cá nhân)
+. App : 
+	- Newest
+	- Trending (sort theo tag, 1 tag nhiều câu hỏi pop lên)
+	- Top
+	- Following post
+. Cài đặt
+	- Độ sáng, cỡ chữ, policy, Version.
+	- Thông tin nhà phát triển.
+
+
+Object: 
+User
+- Info: username, pass, uid,gender ,mail, giới thiệu bản thân, job, follower(int), follow post, recently status, contributed point(int).
+Post 
+- pid, post title, content, tag(list<string>), owner_uid, like, share(function), uid_follow, 
+- list <comment>: 
+	content, uid, correctly.
+- function: 
+	post: add, del, edit. 
+	comment: add, del, edit.
+
+18/02/2016
+Detail
+OBJECT USER
+- String username
+- String password
+- String email
+- String introduction
+- Boolean gender
+- String Job
+- String recently status
+- List<Post> followPost
+- int numberofPost
+- int numberofFollower
+- int numberofContribute((Numberlike 's all posts of this user)/5) 
+
+#note: Ignore uid cause in parse.com have properties instead of is ObjectID.
+
+OBJECT COMMENT
+- String UserID.
+- int vote 
+#note: when you show these comment, it will be arranged by votes.
+
+OBJECT POST
+- String PostTitle
+- String Content
+- List<String> Tags.
+- String owner_UserID
+- int numberoflike.
+- 
+
+OBJECT TAG
+- String TagName
+- List<PostId> Post 's Tag.
+
+5/4/2016
+C/C++
+C#
+JAVA
+ANDROID
+ASP.NET
+SQLITE
+HTML CSS
+GRAPHICS DESIGN
+
+
+
+
+
